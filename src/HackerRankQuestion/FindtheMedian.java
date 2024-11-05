@@ -5,10 +5,7 @@ import java.util.Scanner;
 
 public class FindtheMedian {
     public static int findMedian(int[] arr) {
-        // Sort the array
         Arrays.sort(arr);
-
-        // Return the middle element (since n is odd)
         return arr[arr.length / 2];
     }
     public static void main(String[] args) {

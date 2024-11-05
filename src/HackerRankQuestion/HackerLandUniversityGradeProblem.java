@@ -30,11 +30,8 @@ public class HackerLandUniversityGradeProblem {
                  }else {
                      output[j] = arr[i];
                  }
-
                  j++;
              }
-
-
         }
 
         System.out.printf(Arrays.toString(output));
